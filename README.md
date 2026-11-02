@@ -12,7 +12,6 @@ Original demos with made-up or public data, AI-assisted, each with tests:
 - **[demo-remotion-card](https://github.com/shawnrruss/demo-remotion-card)**: title cards rendered from one JSON file, with exact-timing tests
 - **[demo-dashboard](https://github.com/shawnrruss/demo-dashboard)**: Astro + React + Tailwind member dashboard with a typed data layer and tested booking filters
 - **[demo-lead-skill](https://github.com/shawnrruss/demo-lead-skill)**: a Claude skill that lists public businesses by city and type into a spreadsheet
-- **booking-app**: online booking for a small business (in progress)
 
 ### How I work
 Tests first, small clean commits, plain-language updates. Available 7 days a week, US Eastern;
