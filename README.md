@@ -70,11 +70,10 @@ A Python reporting example using simulated sports-betting records. Demonstrates 
 
 ## Open-source work
 
-- **[Microsoft PyRIT #3815](https://github.com/microsoft/PyRIT/pull/3815):** submitted a fix preserving the `QUEUED` state in scenario-history filters, URLs, and API requests, with regression tests and a TypeScript completeness check.
-- **[OpenCTI #19488](https://github.com/OpenCTI-Platform/opencti/pull/19488):** submitted a Python client fix for file IDs containing reserved URL characters, with regression tests.
-- **[elmo #1089](https://github.com/elmohq/elmo/pull/1089):** submitted unit tests for API-key scope conversion, ordering, deduplication, invalid inputs, and round trips.
-
-*All three pull requests are open as of November 2, 2026; none is merged.*
+- **[Microsoft PyRIT #4145](https://github.com/microsoft/PyRIT/pull/4145) (merged):** updated the Python integration for the current Copilot SDK session API while preserving local multi-turn history. Added offline regression checks for session settings and fallback behavior.
+- **[Microsoft PyRIT #3815](https://github.com/microsoft/PyRIT/pull/3815) (released in [v1.2.0](https://github.com/microsoft/PyRIT/releases/tag/v1.2.0)):** restored the `QUEUED` state in scenario-history filters, shared URLs, and API requests, with regression tests and a TypeScript completeness check.
+- **[elmo #1089](https://github.com/elmohq/elmo/pull/1089) (merged):** added unit tests for API-key scope conversion, ordering, deduplication, invalid inputs, and round trips.
+- **[OpenCTI #19488](https://github.com/OpenCTI-Platform/opencti/pull/19488) (submitted, not merged):** proposed a Python client fix for file IDs containing reserved URL characters, with regression tests.
 
 ## How I work
 
