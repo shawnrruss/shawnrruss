@@ -18,6 +18,13 @@ I build and verify focused software changes: reproduce the problem, make a revie
 | [Microsoft PyRIT #4305](https://github.com/microsoft/PyRIT/pull/4305) | Make private CLI banner helpers keyword-only without changing public behavior. |
 | [elmo #1089](https://github.com/elmohq/elmo/pull/1089) | Add regression tests for API-key scope conversion, ordering, and round trips. |
 
+## Case studies
+
+Two examples of the problem, the fix, the checks, and the maintainer review:
+
+- [Microsoft PyRIT: type safety and YAML validation](case-studies/pyrit-ua6.md) — Resolve 13 typing findings and address an empty-YAML edge case during review.
+- [Salt: restoring local-file minion connections](case-studies/salt-local-minion.md) — Add missing asynchronous cleanup and a regression test for `file_client: local`.
+
 ## Independent project: Simlab
 
 [See the code and example reports](https://github.com/shawnrruss/demo-sim-lab). Simlab is a Python project for exploring staffing and project timelines. It includes a repeatable queue simulation, a Monte Carlo schedule model, and standalone reports. Tests compare key outputs against analytical reference cases, and CI covers Windows and Linux. The published examples use simulated data and are not client work or validated business forecasts.
