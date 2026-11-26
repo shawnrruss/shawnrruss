@@ -10,6 +10,7 @@ I build and verify focused software changes: reproduce the problem, make a revie
 
 | Pull request | Change |
 | --- | --- |
+| [Microsoft PyRIT #4523](https://github.com/microsoft/PyRIT/pull/4523) | Fix 13 `unsound-assignment` findings across nine scoped model and registry files (UA-6), with taxonomy YAML validation and regression coverage. |
 | [Salt #70653](https://github.com/saltstack/salt/pull/70653) | Fix `file_client: local` minion connections by adding `AsyncPillar.aclose()`, with regression coverage. |
 | [Microsoft PyRIT #3956](https://github.com/microsoft/PyRIT/pull/3956) | Reject duplicate YAML keys while preserving merge overrides, with regression coverage for both supported loader backends. |
 | [Microsoft PyRIT #4145](https://github.com/microsoft/PyRIT/pull/4145) | Update the Copilot SDK session integration while preserving local multi-turn history; cover session settings and fallbacks with offline tests. |
